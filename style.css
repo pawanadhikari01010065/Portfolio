@@ -302,36 +302,40 @@ img{
 
 }
 
-.button {
+.button3 {
   background: transparent;
-  color: #e63946;
+  
   border: 2px solid #e63946;
   padding: 10px;
   border-radius: 6px;
   cursor: pointer;
   transition: all 0.3s ease;
   margin-top: auto;
+  a{text-decoration: none;
+    color: #e63946;
+}
 }
 
 
-.button:hover {
-  background: #e63946;
-  color: white;
+.button3:hover {
+  background-color: #e63946;
+  a{color: white;}
 }
 
 .yo{
    text-align: center;
    margin-bottom:30px ;
-}
-
-button{
+   button{
     padding: 15px;
     border-radius: 10px;
     border:white ;
     transition: all 0.5s ease;
 
 }
-button:hover{
+}
+
+
+.yo button:hover{
     color: white;
     background-color: #e63946;
     
@@ -357,6 +361,16 @@ button:hover{
 #form{
     background-color: rgb(255, 153, 0);
     color: white;
+       padding: 15px;
+    border-radius: 10px;
+    border: none;
+
+}
+#form:hover{
+    transition: all 0.5s ease;
+    transform: translateY(-6px);
+    box-shadow: 5px 5px 10px black;
+
 }
 .grid1{
     display: grid;
@@ -372,10 +386,4 @@ button:hover{
     display: flex;
     flex-direction: column;
     gap: 45px;
-}
-button:hover{
-    transition: all 0.5s ease;
-    transform: translatey(-5px);
-    box-shadow: 3px 5px 9px black;
-    cursor: pointer;
 }
